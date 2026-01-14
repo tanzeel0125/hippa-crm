@@ -1,0 +1,19 @@
+import { ReactNode } from "react";
+import PublicNavbar from "./PublicNavbar";
+import Footer from "./Footer";
+
+interface PublicLayoutProps {
+  children: ReactNode;
+}
+
+const PublicLayout = ({ children }: PublicLayoutProps) => {
+  return (
+    <div className="min-h-screen flex flex-col">
+      <PublicNavbar />
+      <main className="flex-1 pt-16 md:pt-20">{children}</main>
+      <Footer />
+    </div>
+  );
+};
+
+export default PublicLayout;
