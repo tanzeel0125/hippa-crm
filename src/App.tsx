@@ -17,6 +17,7 @@ import SignupPage from "./pages/SignupPage";
 
 // Onboarding
 import PatientOnboarding from "./pages/onboarding/PatientOnboarding";
+import DoctorOnboarding from "./pages/onboarding/DoctorOnboarding";
 
 // Patient Pages
 import PatientDashboard from "./pages/patient/PatientDashboard";
@@ -46,7 +47,7 @@ const App = () => (
 
           {/* Onboarding */}
           <Route path="/onboarding/patient" element={<PatientOnboarding />} />
-          <Route path="/onboarding/doctor" element={<PatientOnboarding />} />
+          <Route path="/onboarding/doctor" element={<DoctorOnboarding />} />
 
           {/* Patient Routes */}
           <Route path="/patient/dashboard" element={<PatientDashboard />} />
