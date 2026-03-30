@@ -1,8 +1,6 @@
 # End-to-End Healthcare Platform
 
-## Project info
-
-Patient + Doctor Experience (Full Lifecycle Product)
+## Patient + Doctor Experience (Full Lifecycle Product)
 
 A fully connected, production-grade healthcare platform prototype designed to deliver a seamless experience across patient care, provider workflows, telehealth, EMR, and billing.
 
